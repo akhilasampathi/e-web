@@ -12,6 +12,8 @@ const Footer = () => {
           <p>Piller No:96 MG Road,Bangalore</p>
           <p>Email: Gallaxy@gmail.com</p>
           <p>Phone: +7780108055</p>
+         <p> This Site is Developed For Semester Internship #APSCHE #YVU #LOYOLA #HONEYSYS</P>
+         <p>All Rights are ReservedⒸ by SAMPATHI AKHILA</p>
         </div>
       </div>
     </footer>
