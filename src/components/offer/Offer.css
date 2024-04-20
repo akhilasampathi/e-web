@@ -1,0 +1,13 @@
+.offer-page {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr ); /* Three columns */
+    grid-template-rows: repeat(2, auto);
+    width: 100%;
+    height: 100%; /* Three rows */
+    gap: 5px; /* Gap between images */
+    justify-items: center; /* Center images horizontally */
+    align-items: center; /* Center images vertically */
+  }
+  
+  
+  

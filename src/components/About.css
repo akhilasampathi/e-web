@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.about-page{
+    background:url('./images//about.jpg');
+    background-position:center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 90vh;
+    width: 100%;
+    cursor: pointer;
+    top: -18px;
+    margin-top: 90px;
+}
+.about-img{
+   display: grid;
+   place-items: center;
+   height: 40vh;
+   color: white;
+   margin-left: 800px;
+   padding-top: 10px; 
+}
+

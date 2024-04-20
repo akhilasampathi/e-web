@@ -1,0 +1,10 @@
+/* Banner.css */
+.banner-page {
+    position: relative;
+    background-color: #f8f8f8;
+    justify-content: center; 
+  z-index: -1;
+  width: 100%;
+
+}
+

@@ -1,0 +1,53 @@
+.banner{
+    background:url('./images//backgroundd.jpg');
+    background-position:center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 90vh;
+    /* margin-top: 5px; */
+    width: 100%;
+    cursor: pointer;
+    top: -18px;
+    margin-top: 100px; 
+}
+.content{
+display: grid;
+place-items: center;
+height: 40vh;
+color: white;
+margin-left: 346px;
+padding-top: 100px;
+}
+.contact-info p{
+    font-size: larger;
+    gap: 10px;
+    margin-top: 5px;
+}
+.info {
+    margin-top: 10px;
+    gap: 20px;
+    border: 1px solid  rgb(188, 188, 188);
+    width: 200px;
+    height: 100px;
+    font-size: larger;
+    padding: 5px;
+}
+.follow{
+    margin-top: 40px;
+    /* border: 2px solid; */
+    width: 900px;
+    height: 140px;
+}
+.contact-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    margin-top: 20px;
+}
+
+
+
+
+    
+

@@ -1,0 +1,14 @@
+.best{
+    display: flex;
+    gap: 24px;
+    border: 1px solid;
+    padding: 80px;
+    align-items: center;
+    justify-content: center;
+    background-color: azure;
+}
+.best-cooler{
+    border: none;
+    box-shadow: black 1px 2px;
+    border-radius: 2px;
+}

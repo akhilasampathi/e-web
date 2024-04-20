@@ -1,0 +1,99 @@
+.app-grid {
+    display: grid;
+    grid-template-areas:
+      "header header header"
+      "sidebar main-content main-content"
+      "footer footer footer";
+    grid-template-columns: 250px auto;
+    grid-template-rows: auto 1fr auto;
+    width: 100%;
+    height: 100vh;
+  }
+  .header {
+    grid-area: header;
+    /* background-color: #333; */
+    color: #fff;
+    padding: 150px;
+    width: 900px;
+    height: 100px;
+    margin-left: 200px; /* Centers the header horizontally */
+    display: flex; /* Enables Flexbox */
+    justify-content: center; /* Centers the content horizontally */
+    align-items: center; /* Centers the content vertically */
+  }
+  .ba{
+    width: 800px;
+    height: 300px;
+  }
+  
+  .sidebar {
+    grid-area: sidebar;
+    background-color: #555;
+    color: #fff;
+    padding: 5px;
+  }
+  .sidebar {
+    grid-area: sidebar;
+    background-color:bisque;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+}
+
+.filter-section {
+    margin-bottom: 20px;
+}
+
+.filter-section h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.filter-list {
+    list-style: none;
+    padding: 0;
+}
+
+.filter-list li {
+    margin-bottom: 10px;
+}
+
+.filter-list label {
+    font-size: 14px;
+    display: block;
+}
+
+.filter-list input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+  
+  .main-contentt {
+    grid-area: main-content;
+    display: flex;
+    background-color: #eee;
+    padding: 10px;
+  }
+  .phonee{
+    display: flex;
+    border: 1px solid;
+    border-color:cornflowerblue;
+  }
+  .phoneo{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+    height: 50%;
+  }
+  .phone{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  .footer {
+    grid-area: footer;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  

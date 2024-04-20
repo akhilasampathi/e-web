@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.Header{
+    width: 100%;
+    
+    top: 0px;
+    /* overflow: hidden; */
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:  0;
+    border: 2px solid;
+    border-color: indigo;
+    background: white;
+    position: fixed;
+    z-index: 1;
+}
+.ih{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list{
+    display: flex;
+     gap: 100px;
+     align-items: left;
+     justify-content: flex-end;
+     float: inline-end;
+}
+.list li{
+    list-style: none;
+    padding: 10px;
+    font-size: large;
+    font-weight: 100;
+    cursor: pointer;
+    align-items:self-end;
+    font-weight: 500;
+}
+
+
+
+
+
